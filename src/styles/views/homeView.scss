@@ -1,0 +1,33 @@
+@import '../setings.scss';
+@import '../utils.scss';
+
+.section-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__tittle{
+        margin: 60px 0 60px 0;
+    }
+
+    &__one{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+    }
+
+    &__text{
+        align-self: center;
+    }
+}
+
+.containerStyles{
+    width: 500px;
+    height: 280px;
+    margin-right: 125px;
+    &_mod{
+        margin-right: 0px;
+        margin-left: 125px;
+    }
+}
