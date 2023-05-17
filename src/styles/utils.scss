@@ -12,6 +12,10 @@ h3{
     letter-spacing: 2px;
 }
 
+p{
+    font-size: 24px;
+}
+
 button{
     background-color: $green;
     border: none;
@@ -20,7 +24,8 @@ button{
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 24px;
+    width: fit-content;
 
     &:hover{
         background-color: $green-active;

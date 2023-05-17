@@ -31,3 +31,29 @@
         margin-left: 125px;
     }
 }
+
+.study{
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    background-color: $black;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+        margin-right: 160px;
+    }
+
+    &__text{
+        width: 560px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: $white;
+
+        span{
+            color: $green;
+            font-size: 48px;
+        }
+    }
+}

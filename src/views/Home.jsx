@@ -1,10 +1,10 @@
-import { useState } from 'react';
-
-import '../styles/views/homeView.scss';
-
 import NavBar from '../componets/NavBar';
 import Welcome from '../componets/welcome';
 import ImageSlider from '../componets/ImageSlider';
+import StudingHome from '../componets/StudingHome';
+import Footer from '../componets/Footer';
+
+import '../styles/views/homeView.scss';
 
 const Home = () => {
   const slides = [
@@ -59,6 +59,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <StudingHome />
+      <Footer />
     </div>
   );
 };
