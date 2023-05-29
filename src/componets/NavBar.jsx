@@ -21,6 +21,9 @@ const NavBar = () => {
           <Link to='/studing'>Studing</Link>
         </li>
         <li>
+          <Link to='/studing-page'>card</Link>
+        </li>
+        <li>
           <IoEarth className='icon' />
           <a href='#'>PL</a>
         </li>

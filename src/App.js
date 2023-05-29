@@ -5,6 +5,7 @@ import About from './views/About';
 import MyWorks from './views/MyWorks';
 import Studing from './views/Studing';
 import Layout from './componets/Layout';
+import StudingPage from './views/StudingPage';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/myworks" element={<MyWorks />} />
         <Route path="/studing" element={<Studing />} />
+        <Route path="/studing-page" element={<StudingPage />} />
       </Route>
     </Routes>
   );

@@ -1,6 +1,17 @@
 @import '../setings.scss';
 @import '../utils.scss';
 
+.myworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &_tittle{
+        margin: 30px;
+    }
+}
+
 .work {
     display: flex;
     flex-direction: row;
