@@ -5,21 +5,16 @@ const StudingHome = () => {
     <div className='study'>
       <img className='study__img' src={fotogirl} alt='' />
       <div className='study__text'>
-        <h2>Styding programs</h2>
         <p>
-          <span>P</span>it is a long established fact that a reader will be
-          distracted by the readable content of a page when looking at its
-          layout. The point of using Lorem Ipsum is.
-        </p>
-        <p>
-          <span>P</span>it is a long established fact that a reader will be
-          distracted by the readable content of a page when looking at its
-          layout. The point of using Lorem Ipsum is.
-        </p>
-        <p>
-          <span>P</span>it is a long established fact that a reader will be
-          distracted by the readable content of a page when looking at its
-          layout. The point of using Lorem Ipsum is.
+          Jestem certyfikowaną Linergistką wciąż podnoszącą swoje kwalifikacje.
+          Zajmuję się makijażem permanentnym:Brwi metodą ombre, powder,
+          microblading oraz hybrydy kresek na powiekach typu eyeliner,
+          zagęszczanie linii rzęs oraz Ust metodą 3D jak i sam kontur.Makijaż
+          permanentny utrzymuje się na skórze ok. 2-5 lat, jest to kwestia
+          metabolizmu skóry i w każdym przypadku może się nieco różnić. Pracuję
+          na najwyższej jakości pigmentach, oraz sprzęcie „I Am Ink”, który w
+          maju 2017r. otrzymał NAGRODĘ GŁÓWNĄ „Inspiracje Roku” w kategorii
+          Urządzenia do Makijażu Permanentnego!
         </p>
         <button>More information</button>
       </div>

@@ -8,13 +8,13 @@
     align-items: center;
 
     &__tittle{
-        margin: 60px 0 60px 0;
+        margin: 6rem 0 6rem 0;
     }
 
     &__one{
         display: flex;
         flex-direction: row;
-        margin-bottom: 60px;
+        margin-bottom: 6rem;
     }
 
     &__text{
@@ -23,17 +23,17 @@
 }
 
 .containerStyles{
-    width: 500px;
-    height: 280px;
-    margin-right: 125px;
+    width: 50rem;
+    height: 28rem;
+    margin-right: 12.5rem;
     &_mod{
-        margin-right: 0px;
-        margin-left: 125px;
+        margin-right: 0rem;
+        margin-left: 12.5rem;
     }
 }
 
 .study{
-    height: 750px;
+    height: 75rem;
     display: flex;
     flex-direction: row;
     background-color: $black;
@@ -41,19 +41,19 @@
     align-items: center;
 
     &__img{
-        margin-right: 160px;
+        margin-right: 16rem;
     }
 
     &__text{
-        width: 560px;
+        width: 56rem;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 1.5rem;
         color: $white;
 
         span{
-            color: $green;
-            font-size: 48px;
+            color: $pink;
+            font-size: 4.8rem;
         }
     }
 }

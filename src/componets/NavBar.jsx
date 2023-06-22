@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom';
 
 import { IoEarth } from 'react-icons/io5';
+import logo from '../assets/logoKaravern.svg';
 
-import '../styles/navbar.scss';
+import '../styles/componets/navbar.scss';
 
 const NavBar = () => {
   return (
     <div className='nav'>
+      <div>
+        <img className='nav__logo' src={logo} alt='' />
+      </div>
       <ul className='nav__list'>
         <li>
           <Link to='/'>Home</Link>
@@ -25,7 +29,7 @@ const NavBar = () => {
         </li>
         <li>
           <IoEarth className='icon' />
-          <a href='#'>PL</a>
+          <a href='1'>PL</a>
         </li>
       </ul>
     </div>

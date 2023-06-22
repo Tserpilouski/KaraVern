@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import '../styles/ImageSlider.scss';
+import '../styles/componets/ImageSlider.scss';
 
 const ImageSlider = ({ slides }) => {
   console.log(slides);

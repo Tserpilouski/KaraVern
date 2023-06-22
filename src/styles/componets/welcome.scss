@@ -1,0 +1,40 @@
+@import '../setings.scss';
+
+.section{
+    &__start{
+        height: 65rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: black;
+        color: white;
+
+        img{
+            height: 100%;
+        }
+    }
+
+    &__left{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 50rem;
+        margin-right: 10rem;
+        h1{
+            font-size: 4rem;
+            font-weight: 500;
+        }
+        span{
+            margin-bottom: 6rem;
+            text-align: flex-end;
+        }
+        p{
+            margin-bottom: 4rem;
+        }
+    }
+}
+
+.tittle {
+    margin-bottom: 1.5rem;
+}

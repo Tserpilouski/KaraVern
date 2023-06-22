@@ -1,6 +1,6 @@
 import fotogirl from '../assets/foto.svg';
 
-import '../styles/welcome.scss';
+import '../styles/componets/welcome.scss';
 
 const WelcomeNoBTN = () => {
   return (

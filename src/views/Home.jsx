@@ -18,28 +18,25 @@ const Home = () => {
       <NavBar />
       <Welcome />
       <div className='section-slide'>
-        <h2 className='section-slide__tittle'>УСЛУГИ ПЕРМАНЕНТНОГО МАКИЯЖА</h2>
+        <h2 className='section-slide__tittle'>Zapoznaj się z moimi usługami</h2>
         <div className='section-slide__one'>
           <div className='containerStyles'>
             <ImageSlider slides={slides} />
           </div>
           <div className='section-slide__text'>
-            <h3>Перманентный татуаж бровей</h3>
+            <h3>Pigmentacja brwi</h3>
             <p>
-              Эффектный образ с идеальной симметрией за 1,5 часа в современной
-              студии
+              Atrakcyjny wygląd z idealną symetrią w 1,5 godziny w nowoczesnym
+              studio
             </p>
-            <button>Получить консультацию</button>
+            <button>PRZEJDŹ DO SZCZEGÓŁÓW</button>
           </div>
         </div>
         <div className='section-slide__one'>
           <div className='section-slide__text'>
-            <h3>Перманентный татуаж бровей</h3>
-            <p>
-              Эффектный образ с идеальной симметрией за 1,5 часа в современной
-              студии
-            </p>
-            <button>Получить консультацию</button>
+            <h3>Stylizacja rzęs</h3>
+            <p>Atrakcyjny wygląd oczu w 1,5 godziny w nowoczesnym studio</p>
+            <button>PRZEJDŹ DO SZCZEGÓŁÓW</button>
           </div>
           <div className='containerStyles containerStyles_mod'>
             <ImageSlider slides={slides} />
@@ -50,12 +47,12 @@ const Home = () => {
             <ImageSlider slides={slides} />
           </div>
           <div className='section-slide__text'>
-            <h3>Перманентный татуаж бровей</h3>
+            <h3>Pigmentacja ust</h3>
             <p>
-              Эффектный образ с идеальной симметрией за 1,5 часа в современной
-              студии
+              Zaskakujący wygląd z piękną objętością w 1,5 godziny w nowoczesnym
+              studio
             </p>
-            <button>Получить консультацию</button>
+            <button>PRZEJDŹ DO SZCZEGÓŁÓW</button>
           </div>
         </div>
       </div>
