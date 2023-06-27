@@ -11,12 +11,13 @@ const StudingHome = () => {
           microblading oraz hybrydy kresek na powiekach typu eyeliner,
           zagęszczanie linii rzęs oraz Ust metodą 3D jak i sam kontur.Makijaż
           permanentny utrzymuje się na skórze ok. 2-5 lat, jest to kwestia
-          metabolizmu skóry i w każdym przypadku może się nieco różnić. Pracuję
-          na najwyższej jakości pigmentach, oraz sprzęcie „I Am Ink”, który w
-          maju 2017r. otrzymał NAGRODĘ GŁÓWNĄ „Inspiracje Roku” w kategorii
-          Urządzenia do Makijażu Permanentnego!
+          metabolizmu skóry i w każdym przypadku może się nieco różnić.
         </p>
-        <button>More information</button>
+        <p>
+          Pracuję na najwyższej jakości pigmentach, oraz sprzęcie „I Am Ink”,
+          który w maju 2017r. otrzymał NAGRODĘ GŁÓWNĄ „Inspiracje Roku” w
+          kategorii Urządzenia do Makijażu Permanentnego!
+        </p>
       </div>
     </div>
   );

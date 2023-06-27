@@ -18,7 +18,11 @@
     }
 
     &__text{
+        width: 70rem;
         align-self: center;
+        p{
+            margin-bottom: 2rem;
+        }
     }
 }
 
@@ -33,7 +37,7 @@
 }
 
 .study{
-    height: 75rem;
+    height: 100rem;
     display: flex;
     flex-direction: row;
     background-color: $black;
@@ -45,11 +49,17 @@
     }
 
     &__text{
-        width: 56rem;
+        width: 80rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
         color: $white;
+
+        p{
+            margin-bottom: 2rem;
+            line-height: 120%;
+            letter-spacing: 0.2rem;
+        }
 
         span{
             color: $pink;

@@ -9,12 +9,15 @@ const Footer = () => {
         <span>email beaty@gmail.com</span>
       </div>
       <div className='footer__right'>
-        <h3>BOOK OR GET A CONSULTATION</h3>
-        <span>Get in contact very quickly!</span>
+        <h3>UMÓW SIĘ NA WIZYTĘ</h3>
+        <span>
+          Przed umówieniem wizyty bardzo proszę o zapoznanie się z regulaminem
+          oraz przeciwwskazaniami dotyczącymi poszczególnych zabiegów.
+        </span>
         <form action=''>
           <input type='text' placeholder='Your name*' />
           <input type='number' placeholder='Your phone number*' />
-          <button>send a message</button>
+          <button>WYŚLIJ</button>
         </form>
       </div>
     </div>

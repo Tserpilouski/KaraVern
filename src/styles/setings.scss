@@ -23,9 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -37,21 +34,15 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 a {
 	color: inherit; 
 	text-decoration: inherit;
 }
 
 html {
-    font-family: "Euclid Circular A"; // шрифт по умолчанию по сайту
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; // шрифт по умолчанию по сайту
     font-size: 0.5208335vw; // на разрешении 1920 0.520835vw === 10px
     font-style: normal;
     font-weight: normal;
     line-height: 1.2;
-    margin: 0;
-    padding: 0;
 }
