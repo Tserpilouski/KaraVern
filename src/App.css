@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.App {
+  text-align: center;
+  font-family:popins;
 }

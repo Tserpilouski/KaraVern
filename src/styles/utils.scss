@@ -1,0 +1,35 @@
+$pink: #BF1B6B;
+$pink-active: #BF1B6B;
+$black: #000000;
+$white: #fff;
+
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.3rem $pink solid;
+    color: $black;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    width: fit-content;
+
+    &:hover{
+        background-color: $pink-active;
+        cursor: pointer;
+        color: $white;
+    }
+}
+
+h2{
+    font-size: 6rem;
+}
+
+h3{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+p{
+    font-size: 3.5rem;
+}

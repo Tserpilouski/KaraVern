@@ -1,0 +1,18 @@
+@import '../utils.scss';
+
+.about {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 45px;
+    }
+
+    p {
+        width: 900px;
+        text-align: center;
+    }
+}
