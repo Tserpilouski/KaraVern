@@ -1,7 +1,4 @@
-import text from '../text.json';
-
 const CardStudingInfo = () => {
-  console.log(text);
   return (
     <div className='card-info'>
       <h2>Пройдя курс вы:</h2>
