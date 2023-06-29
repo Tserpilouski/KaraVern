@@ -1,7 +1,7 @@
 
 .section{
     &__start{
-        height: 90rem;
+        height: 65rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -11,7 +11,8 @@
         padding-left: 10rem;
 
         img{
-            height: 88.5rem;
+            width: 45rem;
+            height: 65rem;
         }
     }
 
@@ -19,19 +20,21 @@
         display: flex;
         flex-direction: column;
         align-self: center;
-        width: 100rem;
+        width: 53rem;
 
         h1{
-            font-size: 20rem;
+            margin: 0;
+            font-size: 9.6rem;
             font-weight: 500;
         }
         span{
-            font-size: 3rem;
-            margin-bottom: 6rem;
+            font-size: 2rem;
+            margin-bottom: 3rem;
             text-align: end;
         }
         p{
-            margin-bottom: 4rem;
+            margin: 0;
+            font-size: 2rem;
         }
     }
 }

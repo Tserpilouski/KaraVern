@@ -1,4 +1,4 @@
-import fotogirl from '../assets/foto.svg';
+import fotogirl from '../assets/kara_two.png';
 
 const StudingHome = () => {
   return (
