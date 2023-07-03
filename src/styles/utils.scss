@@ -11,7 +11,8 @@ button{
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1rem;
+    font-weight: bold;
     width: fit-content;
 
     &:hover{
@@ -22,14 +23,17 @@ button{
 }
 
 h2{
-    font-size: 6rem;
+    font-size: 4rem;
+    font-weight: 100;
 }
 
 h3{
-    font-size: 5rem;
+    font-size: 3.2rem;
+    font-weight: 100;
     margin-bottom: 3rem;
 }
 
 p{
-    font-size: 3.5rem;
+    font-size: 2.4rem;
+    margin: 0;
 }

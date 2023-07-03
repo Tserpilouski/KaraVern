@@ -7,19 +7,20 @@
     align-items: center;
 
     &__tittle{
-        margin: 6rem 0 6rem 0;
+        margin: 5rem 0 5rem 0;
     }
 
     &__one{
         display: flex;
         flex-direction: row;
-        margin-bottom: 6rem;
+        margin-bottom: 10rem;
     }
 
     &__text{
-        width: 70rem;
+        width: 45rem;
         align-self: center;
         p{
+            // font-size: 2rem;
             margin-bottom: 2rem;
         }
     }
@@ -36,7 +37,7 @@
 }
 
 .study{
-    height: 100rem;
+    height: 59.5rem;
     display: flex;
     flex-direction: row;
     background-color: $black;
@@ -44,25 +45,19 @@
     align-items: center;
 
     &__img{
-        margin-right: 16rem;
+        height: 59.5rem;
     }
 
     &__text{
-        width: 80rem;
+        width: 68rem;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
         color: $white;
 
         p{
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             line-height: 120%;
             letter-spacing: 0.2rem;
-        }
-
-        span{
-            color: $pink;
-            font-size: 4.8rem;
         }
     }
 }

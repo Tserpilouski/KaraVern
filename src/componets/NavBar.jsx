@@ -16,13 +16,13 @@ const NavBar = () => {
           <Link to='/'>Home</Link>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <Link to='/about'>O mnie</Link>
         </li>
         <li>
-          <Link to='/myworks'>My Works</Link>
+          <Link to='/myworks'>Oferta</Link>
         </li>
         <li>
-          <Link to='/studing'>Studing</Link>
+          <Link to='/studing'>Szkolenie</Link>
         </li>
         <li>
           <Link to='/studing-page'>card</Link>

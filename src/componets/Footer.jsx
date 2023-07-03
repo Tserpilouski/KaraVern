@@ -5,8 +5,20 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer__left'>
         <h3>BEAUTY MASTER KARAVERN </h3>
-        <span>tel. +48 833 383 833</span>
-        <span>email beaty@gmail.com</span>
+        <ul className='vertical-line-list'>
+          <li>
+            <span>tel. +48 833 383 833</span>
+          </li>
+          <li>
+            <span>e-mail: beaty@gmail.com</span>
+          </li>
+          <li>
+            <span>10:00 do 21:00 Pn-Nd</span>
+          </li>
+          <li>
+            <span>ul. Ozimska 40 45-271 Opole</span>
+          </li>
+        </ul>
       </div>
       <div className='footer__right'>
         <h3>UMÓW SIĘ NA WIZYTĘ</h3>

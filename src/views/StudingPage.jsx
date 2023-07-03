@@ -1,5 +1,5 @@
 import NavBar from '../componets/NavBar';
-import Welcome from '../componets/welcome';
+import Welcome from '../componets/Welcome';
 import CardStudingInfo from '../componets/CardStudingInfo';
 import Footer from '../componets/Footer';
 

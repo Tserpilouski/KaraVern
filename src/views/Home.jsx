@@ -1,5 +1,5 @@
 import NavBar from '../componets/NavBar';
-import Welcome from '../componets/welcome';
+import Welcome from '../componets/Welcome';
 import ImageSlider from '../componets/ImageSlider';
 import StudingHome from '../componets/StudingHome';
 import Footer from '../componets/Footer';

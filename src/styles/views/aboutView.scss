@@ -1,18 +1,27 @@
 @import '../utils.scss';
 
 .about {
-    height: 350px;
+    height: 125rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
-    h2 {
-        margin-bottom: 45px;
+    &__fotobox{
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        grid-column-gap: 3rem;
+        grid-row-gap: 3rem;
+
+        img{
+            width: 26rem;
+        }
     }
 
     p {
-        width: 900px;
+        width: 90rem;
+        margin: 0;
         text-align: center;
+        line-height: 130%;
     }
 }

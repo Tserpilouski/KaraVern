@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
 
-    &_tittle{
-        margin: 30px;
+    &__title{
+        letter-spacing: 0.3rem;
     }
 }
 
@@ -20,14 +20,29 @@
     &__img {
         display: flex;
         flex-direction: column;
-        gap: 50px;
-        margin-right: 250px;
+        gap: 5rem;
+        margin-right: 20rem;
+
+        img {
+            width: 27rem;
+        }
     }
 
     &__text {
-        width: 490px;
+        width: 49rem;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 2rem;
+
+
     }
+}
+
+.space{
+    height: 5rem;
+}
+
+.capital{
+    font-size: 4rem;
+    color: $pink;
 }

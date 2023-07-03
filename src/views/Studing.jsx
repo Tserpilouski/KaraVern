@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import NavBar from '../componets/NavBar';
-import WelcomeNoBTN from '../componets/WelcomeNoBTN';
+import Welcome from '../componets/Welcome';
 import CardStuding from '../componets/CardStuding';
 import Footer from '../componets/Footer';
 
@@ -10,7 +9,7 @@ const Studing = () => {
   return (
     <div>
       <NavBar />
-      <WelcomeNoBTN />
+      <Welcome />
       <CardStuding />
       <CardStuding />
       <CardStuding />
