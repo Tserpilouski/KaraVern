@@ -18,11 +18,7 @@ const Footer = () => {
           <li>
             <span>ul. Ozimska 40 45-271 Opole</span>
           </li>
-          {/* <li>
-            <div className='footer__left__line'></div>
-          </li> */}
         </ul>
-        {/* <div className='footer__left__line'></div> */}
       </div>
       <div className='footer__right'>
         <h3>UMÓW SIĘ NA WIZYTĘ</h3>

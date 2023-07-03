@@ -1,5 +1,5 @@
 import NavBar from '../componets/NavBar';
-import WelcomeNoBTN from '../componets/WelcomeNoBTN';
+import Welcome from '../componets/Welcome';
 import MyWork from '../componets/MyWork';
 import Footer from '../componets/Footer';
 
@@ -9,10 +9,11 @@ const MyWorks = () => {
   return (
     <div>
       <NavBar />
-      <WelcomeNoBTN />
+      <Welcome />
       <MyWork />
       <MyWork />
       <MyWork />
+      <div className='space'></div>
       <Footer />
     </div>
   );
