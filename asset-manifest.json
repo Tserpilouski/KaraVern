@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KaraVern/static/css/main.a5f3a133.css",
-    "main.js": "/KaraVern/static/js/main.b0003cb6.js",
+    "main.js": "/KaraVern/static/js/main.1f7c42da.js",
     "static/media/kara.png": "/KaraVern/static/media/kara.89bf3984892657e8ce93.png",
     "static/media/kara_two.png": "/KaraVern/static/media/kara_two.0002a8b572e2c115470d.png",
     "static/media/insta7.png": "/KaraVern/static/media/insta7.13b132b114e51f6a18b8.png",
@@ -23,10 +23,10 @@
     "index.html": "/KaraVern/index.html",
     "static/media/checkimg.svg": "/KaraVern/static/media/checkimg.f57a214b5c7ed8da15b32fc94c8596b2.svg",
     "main.a5f3a133.css.map": "/KaraVern/static/css/main.a5f3a133.css.map",
-    "main.b0003cb6.js.map": "/KaraVern/static/js/main.b0003cb6.js.map"
+    "main.1f7c42da.js.map": "/KaraVern/static/js/main.1f7c42da.js.map"
   },
   "entrypoints": [
     "static/css/main.a5f3a133.css",
-    "static/js/main.b0003cb6.js"
+    "static/js/main.1f7c42da.js"
   ]
 }
