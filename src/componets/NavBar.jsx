@@ -13,7 +13,7 @@ const NavBar = () => {
       </div>
       <ul className='nav__list'>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='/KaraVern'>Home</Link>
         </li>
         <li>
           <Link to='/about'>O mnie</Link>

@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/KaraVern" element={<Home />} />
       <Route path="/" element={<Layout />}>
         <Route path="/about" element={<About />} />
         <Route path="/myworks" element={<MyWorks />} />
