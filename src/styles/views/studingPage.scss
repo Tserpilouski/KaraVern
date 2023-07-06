@@ -1,3 +1,5 @@
+@import '../utils.scss';
+
 .cardinfo {
     height: 210rem;
     display: flex;
@@ -67,4 +69,63 @@
         width: 24.5rem;
         font-size: 2rem;
     }
+}
+
+.card-info_shedule{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-shedule{
+    width: 100%;
+    height: 126rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__title{
+        font-size: 2.4rem;
+        margin-bottom: 0rem;
+        font-weight: bold;
+    }
+
+    .centrel-line {
+        align-self: flex-start;
+        width: 3.2rem;
+    }
+
+    .left-column {
+        height: 129rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        .title{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+    
+    .right-column {
+        height: 129rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        &__item{
+            display: flex;
+            flex-direction: column;
+            width: 57rem;
+    
+            ul{
+                padding: 0;
+    
+                li {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    
 }
