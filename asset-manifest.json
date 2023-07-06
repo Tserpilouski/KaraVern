@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/KaraVern/static/css/main.a5f3a133.css",
+    "main.js": "/KaraVern/static/js/main.b0003cb6.js",
+    "static/media/kara.png": "/KaraVern/static/media/kara.89bf3984892657e8ce93.png",
+    "static/media/kara_two.png": "/KaraVern/static/media/kara_two.0002a8b572e2c115470d.png",
+    "static/media/insta7.png": "/KaraVern/static/media/insta7.13b132b114e51f6a18b8.png",
+    "static/media/insta9.png": "/KaraVern/static/media/insta9.8f3b0146eebacdabe1e4.png",
+    "static/media/insta8.png": "/KaraVern/static/media/insta8.c72136338247ca293393.png",
+    "static/media/insta2.png": "/KaraVern/static/media/insta2.306fcc8456c03d4c3a63.png",
+    "static/media/insta6.png": "/KaraVern/static/media/insta6.3ac6041f804cf1f2b3fe.png",
+    "static/media/insta1.png": "/KaraVern/static/media/insta1.2997a735b29a42be1928.png",
+    "static/media/insta5.png": "/KaraVern/static/media/insta5.7ebf340be6e233e2dfcc.png",
+    "static/media/insta3.png": "/KaraVern/static/media/insta3.c7d8d8e3bf2fd204ab01.png",
+    "static/media/insta4.png": "/KaraVern/static/media/insta4.8aea757ed88e43a499d4.png",
+    "static/media/brovi.svg": "/KaraVern/static/media/brovi.35396b91717b4bf4dc563f44466209ba.svg",
+    "static/media/logoKaravern.svg": "/KaraVern/static/media/logoKaravern.4ba1f6e3197f986c74418ae80959ac30.svg",
+    "static/media/iconstep_3.svg": "/KaraVern/static/media/iconstep_3.4cc3d441f50a355fb8752c114560b48f.svg",
+    "static/media/iconstep_1.svg": "/KaraVern/static/media/iconstep_1.3b6e15405f8210271e4e4a4cb46b6aac.svg",
+    "static/media/iconstep_4.svg": "/KaraVern/static/media/iconstep_4.a5fb7ba74fd82c92064416705bbee917.svg",
+    "static/media/iconstep_2.svg": "/KaraVern/static/media/iconstep_2.4cf7f8c489166c7a0d8088f1545f8291.svg",
+    "static/media/central-line.svg": "/KaraVern/static/media/central-line.deb661e1556e7c64ccab5c93ae70fec3.svg",
+    "index.html": "/KaraVern/index.html",
+    "static/media/checkimg.svg": "/KaraVern/static/media/checkimg.f57a214b5c7ed8da15b32fc94c8596b2.svg",
+    "main.a5f3a133.css.map": "/KaraVern/static/css/main.a5f3a133.css.map",
+    "main.b0003cb6.js.map": "/KaraVern/static/js/main.b0003cb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5f3a133.css",
+    "static/js/main.b0003cb6.js"
+  ]
+}
