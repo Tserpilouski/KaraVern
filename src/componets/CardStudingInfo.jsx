@@ -40,28 +40,28 @@ const CardStudingInfo = () => {
       <div className='card-info_shedule'>
         <div className='card-shedule'>
           <div className='left-column'>
-            <span className='title_1 title'>
+            <span className='title'>
               Dzień 1 <br /> (czas trwania 4 godziny)
             </span>
-            <span className='title_2 title'>
+            <span className='title'>
               Dzień 2 <br /> (czas trwania 2 godziny)
             </span>
-            <span className='title_3 title'>
+            <span className='title'>
               Dzień 3 <br /> (czas trwania 6 godziny)
             </span>
-            <span className='title_4 title'>
+            <span className='title'>
               Dzień 4 <br /> (czas trwania 10 godziny)
             </span>
-            <span className='title_5 title'>
+            <span className='title'>
               Dzień 5 <br /> (czas trwania 1 godziny)
             </span>
-            <span className='title_6 title'>
+            <span className='title'>
               Dzień 6 <br /> (czas trwania 1 godziny)
             </span>
           </div>
           <img className='centrel-line' src={line} alt='' />
           <div className='right-column'>
-            <div className='right-column__item'>
+            <div className='right-column__item '>
               <span className='card-shedule__title'>
                 Teoria. Wszystko o przygotowaniu skóry do makijażu:
               </span>
@@ -93,55 +93,57 @@ const CardStudingInfo = () => {
                 </li>
               </ul>
             </div>
-            <div className='right-column__item'>
+            <div className='right-column__item '>
               <span className='card-shedule__title'>
-                Teoria. Wszystko o przygotowaniu skóry do makijażu:
+                Narzędzia do makijażu. Koło kolorów:
               </span>
               <ul>
-                <li>Część wprowadzająca. Rodzaje skóry</li>
+                <li>Najważniejsze pędzle do makijażu dla siebie</li>
+                <li>Przewodnik po kształtach, kłaczkach i producentach</li>
+                <li>Właściwa pielęgnacja bez uszkadzania szczotek</li>
                 <li>
-                  Prawidłowa pielęgnacja i idealne przygotowanie skóry do
-                  makijażu
+                  Co to jest koło kolorów? Jak wykorzystać wiedzę o kombinacjach
+                  kolorów w makijażu?
+                </li>
+              </ul>
+            </div>
+            <div className='right-column__item '>
+              <span className='card-shedule__title'>
+                Nowoczesny makijaż wieczorowy:
+              </span>
+              <ul>
+                <li>
+                  Techniki i podstawowe zasady pracy z tonacją w stylizacjach
+                  wieczorowych
                 </li>
                 <li>
-                  Podstawy dekoracyjne - niezbędny produkt czy marketingowy
-                  chwyt?
+                  Sekrety stosowania gęstszej, bardziej intensywnej, ale
+                  naturalnie wyglądającej korekty
+                </li>
+                <li>
+                  Schemat krok po kroku tworzenia idealnie spłaszczonej strzałki
+                </li>
+                <li>
+                  Specjalne funkcje do pracy z jasnymi akcentami w makijażu
                 </li>
               </ul>
             </div>
             <div className='right-column__item'>
               <span className='card-shedule__title'>
-                Teoria. Wszystko o przygotowaniu skóry do makijażu:
+                Strzałki i jasne usta v2.0:
               </span>
               <ul>
-                <li>Część wprowadzająca. Rodzaje skóry</li>
                 <li>
-                  Prawidłowa pielęgnacja i idealne przygotowanie skóry do
-                  makijażu
+                  Czy aktywne kości policzkowe to już przeszłość czy główny
+                  element korekcji?
                 </li>
-                <li>
-                  Podstawy dekoracyjne - niezbędny produkt czy marketingowy
-                  chwyt?
-                </li>
+                <li>Czego należy unikać podczas pracy z tonami?</li>
+                <li>Opcja strzałki, która pasuje do każdego typu oczu</li>
+                <li>Trzy proste kroki do stworzenia idealnej strzały</li>
+                <li>Jak włączyć jasną szminkę do swojego wyglądu?</li>
               </ul>
             </div>
-            <div className='right-column__item'>
-              <span className='card-shedule__title'>
-                Teoria. Wszystko o przygotowaniu skóry do makijażu:
-              </span>
-              <ul>
-                <li>Część wprowadzająca. Rodzaje skóry</li>
-                <li>
-                  Prawidłowa pielęgnacja i idealne przygotowanie skóry do
-                  makijażu
-                </li>
-                <li>
-                  Podstawy dekoracyjne - niezbędny produkt czy marketingowy
-                  chwyt?
-                </li>
-              </ul>
-            </div>
-            <div className='right-column__item'>
+            <div className='right-column__item right-column__item_mod'>
               <span className='card-shedule__title'>
                 Teoria. Wszystko o przygotowaniu skóry do makijażu:
               </span>
