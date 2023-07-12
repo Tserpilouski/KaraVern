@@ -8,16 +8,18 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left: 10rem;
-    padding-top: 1.8rem;
     box-sizing: border-box;
     background-color: $black;
     font-size: 2rem;
 
+    &__logo-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     &__logo{
         height: 7.6rem;
-        display: flex;
-        align-items: center;
-        justify-content: center
     }
 
     &__list{
@@ -30,13 +32,36 @@
         color: $white;
         margin-right: 10rem;
 
-        li:hover{
-            color: $pink;
+        li {
+            position: relative;
+            a:hover{
+                color: $pink;
+            }
+            a:hover + .icon {
+                color: $pink;
+            }
         }
+
     }
 }
 
 .icon{
+    position: absolute;
+    top: 0.2rem;
+    left: 3.5rem;
     font-size: 2rem;
     margin-right: 0.5rem;
+}
+
+.active-nav{
+    a{
+        color: $pink;
+        border-bottom: 0.2rem solid $pink;
+    }
+}
+
+.nonactive{
+    a{
+        color: white;
+    }
 }

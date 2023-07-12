@@ -80,6 +80,11 @@
                 }
             }
 
+            input,
+            input::placeholder {
+                font-size: 1.5rem;
+            }
+
             button{
                 color: $white;
             }

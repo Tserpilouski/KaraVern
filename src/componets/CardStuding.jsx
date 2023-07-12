@@ -1,19 +1,29 @@
-import fotobrew from '../assets/brovi.svg';
+import { Study } from '../data/data.js';
+import { useNavigate } from 'react-router-dom';
 
 const CardStuding = () => {
+  let navigate = useNavigate();
+
   return (
-    <div className='container'>
-      <div className='card'>
-        <img src={fotobrew} alt='' />
-        <div className='card_right-text'>
-          <h3>Перманентный татуаж бровей</h3>
-          <p>
-            Эффектный образ с идеальной симметрией за 1,5 часа в современной
-            студии
-          </p>
-          <button>получить консультацию</button>
-        </div>
-      </div>
+    <div>
+      {Study.map((card, key) => {
+        return (
+          <div className='card' key={key}>
+            <img className='img' src={card.imgpath} alt={card.title} />
+            <div className='card__right'>
+              <h3 className='card__title'>{card.title}</h3>
+              <p>{card.text}</p>
+              <button
+                onClick={() => {
+                  navigate(card.url);
+                }}
+              >
+                PRZEJDŹ DO KURSU
+              </button>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };

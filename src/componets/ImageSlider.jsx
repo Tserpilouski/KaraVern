@@ -3,7 +3,6 @@ import { useState } from 'react';
 import '../styles/componets/ImageSlider.scss';
 
 const ImageSlider = ({ slides }) => {
-  console.log(slides);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {

@@ -11,8 +11,6 @@ const Studing = () => {
       <NavBar />
       <Welcome />
       <CardStuding />
-      <CardStuding />
-      <CardStuding />
       <Footer />
     </div>
   );
