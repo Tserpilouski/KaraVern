@@ -19,7 +19,8 @@
     &__left{
         display: flex;
         flex-direction: column;
-        align-self: center;
+        // align-self: center;
+        padding-top: 10rem;
         width: 53rem;
 
         h1{
@@ -37,8 +38,10 @@
             font-size: 2rem;
         }
     }
-}
 
-.tittle {
-    margin-bottom: 1.5rem;
+    &__title {
+        font-size: 5rem !important;
+        margin-bottom: 1.5rem !important;
+        text-align: start !important;
+    }
 }

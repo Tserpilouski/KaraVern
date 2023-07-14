@@ -1,8 +1,8 @@
-import fotogirl from '../assets/kara.png';
+import fotogirl from '../assets/kara.jpg';
 
 import '../styles/componets/welcome.scss';
 
-import { welcome } from '../data/data.js';
+import { welcomedata } from '../data/data.js';
 
 const Welcome = () => {
   const parts = window.location.href.split('/');
@@ -10,13 +10,13 @@ const Welcome = () => {
 
   return (
     <div className='section__start'>
-      {welcome.map((data, key) => {
+      {welcomedata.map((data, key) => {
         if (data.name === lastPart) {
           return (
             <div className='section__left' key={key}>
               <h1>Kara Vern</h1>
               <span>BEAUTY-MASTER</span>
-              <p>{data.title}</p>
+              <span className='section__title'>{data.title}</span>
               <p>{data.text}</p>
             </div>
           );

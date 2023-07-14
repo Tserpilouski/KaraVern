@@ -3,15 +3,15 @@ import Welcome from '../componets/Welcome';
 import StudingHome from '../componets/StudingHome';
 import Footer from '../componets/Footer';
 
-import insta1 from '../assets/insta/insta1.png';
-import insta2 from '../assets/insta/insta2.png';
-import insta3 from '../assets/insta/insta3.png';
-import insta4 from '../assets/insta/insta4.png';
-import insta5 from '../assets/insta/insta5.png';
-import insta6 from '../assets/insta/insta6.png';
-import insta7 from '../assets/insta/insta7.png';
-import insta8 from '../assets/insta/insta8.png';
-import insta9 from '../assets/insta/insta9.png';
+import insta1 from '../assets/insta/insta1.jpg';
+import insta2 from '../assets/insta/insta2.jpg';
+import insta3 from '../assets/insta/insta3.jpg';
+import insta4 from '../assets/insta/insta4.jpg';
+import insta5 from '../assets/insta/insta5.jpg';
+import insta6 from '../assets/insta/insta6.jpg';
+import insta7 from '../assets/insta/insta7.jpg';
+import insta8 from '../assets/insta/insta8.jpg';
+import insta9 from '../assets/insta/insta9.jpg';
 
 import '../styles/views/aboutView.scss';
 

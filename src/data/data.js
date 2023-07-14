@@ -19,7 +19,7 @@ export const Study = [
   },
 ];
 
-export const welcome = [
+export const welcomedata = [
   { 
     name: "KaraVern",
     text: "Tworzę piękno które pozostaje na długo."
