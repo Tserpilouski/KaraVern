@@ -4,6 +4,8 @@ import ImageSlider from '../componets/ImageSlider';
 import StudingHome from '../componets/StudingHome';
 import Footer from '../componets/Footer';
 
+// import foto from '../assets/insta/insta1.jpg'
+
 import '../styles/views/homeView.scss';
 
 const Home = () => {

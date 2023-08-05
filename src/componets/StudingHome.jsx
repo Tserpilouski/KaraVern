@@ -1,10 +1,25 @@
 import fotogirl from '../assets/kara_two.png';
 
+import { aboutMe } from '../data/data.js';
+
 const StudingHome = () => {
+  const parts = window.location.href.split('/');
+  const lastPart = parts[parts.length - 1];
+  
   return (
     <div className='study'>
       <img className='study__img' src={fotogirl} alt='' />
-      <div className='study__text'>
+      {aboutMe.map((data, key) => {
+        if (data.name === lastPart) {
+          return (
+            <div className='study__text' key={key}>
+              <p>{data.text}</p>
+            </div>
+          );
+        }
+        return '';
+      })}
+      {/* <div className='study__text'>
         <p>
           Jestem certyfikowaną Linergistką wciąż podnoszącą swoje kwalifikacje.
           Zajmuję się makijażem permanentnym:Brwi metodą ombre, powder,
@@ -18,7 +33,7 @@ const StudingHome = () => {
           który w maju 2017r. otrzymał NAGRODĘ GŁÓWNĄ „Inspiracje Roku” w
           kategorii Urządzenia do Makijażu Permanentnego!
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

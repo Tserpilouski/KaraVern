@@ -9,13 +9,13 @@ export const Study = [
     title: "Stylizacja rzęs",
     text: "Atrakcyjny wygląd oczu w 1,5 godziny w nowoczesnym studio",
     imgpath: require('./oko.jpg'),
-    url: "/studing-page"
+    url: "/studing-page-1"
   },
   {
     title: "Pigmentacja ust",
     text: "Zaskakujący wygląd z piękną objętością w 1,5 godziny w nowoczesnym studio",
     imgpath: require('./usta.jpg'),
-    url: "/studing-page"
+    url: "/studing-page-2"
   },
 ];
 
@@ -52,3 +52,119 @@ export const welcomedata = [
     text: "Naucz się tworzyć własny makijaż o dowolnej trudności w 7 lekcjach"
   }
 ];
+
+export const aboutMe = [
+  {
+    name: "KaraVern",
+    text: "Jestem certyfikowaną Linergistką wciąż podnoszącą swoje kwalifikacje.Zajmuję się makijażem permanentnym:Brwi metodą ombre, powder, microblading oraz hybrydy kresek na powiekach typu eyeliner, zagęszczanie linii rzęs oraz Ust metodą 3D jak i sam kontur.Makijaż permanentny utrzymuje się na skórze ok. 2-5 lat, jest to kwestia metabolizmu skóry i w każdym przypadku może się nieco różnić.Pracuję na najwyższej jakości pigmentach, oraz sprzęcie „I Am Ink”, który w maju 2017r. otrzymał NAGRODĘ GŁÓWNĄ „Inspiracje Roku” w kategorii Urządzenia do Makijażu Permanentnego!"
+  },
+  {
+    name: "about",
+    text: "Hello world"
+  },
+  {
+    name: "myworks",
+    text: "Hello world 2222"
+  }
+]
+
+export const studingCours = [
+  {
+    name: "studing-page",
+    chek: ["check1", "check2", "chek3"],
+    day: ["day1", "day2", "day3", "day4", "day5", "day6"],
+    text: [
+      {
+        title: "day1",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day2",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day3",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day4",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day5",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day6",
+        li: ["dasd", "day2", "day3"]
+      },
+    ],
+    step: ["step1", "step2", "step3", "step4"]
+   
+  },
+  {
+    name: "studing-page-1",
+    chek: ["check1", "check2", "chek3"],
+    day: ["day1", "day2", "day3", "day4", "day5", "day6"],
+    text: [
+      {
+        title: "day1",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day2",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day3",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day4",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day5",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day6",
+        li: ["dasd", "day2", "day3"]
+      },
+    ],
+    step: ["step1", "step2", "step3", "step4"]
+   
+  },
+  {
+    name: "studing-page-2",
+    chek: ["check1", "check2", "chek3"],
+    day: ["day1", "day2", "day3", "day4", "day5", "day6"],
+    text: [
+      {
+        title: "day1",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day2",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day3",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day4",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day5",
+        li: ["dasd", "day2", "day3"]
+      },
+      {
+        title: "day6",
+        li: ["dasd", "day2", "day3"]
+      },
+    ],
+    step: ["step1", "step2", "step3", "step4"]
+  },
+]

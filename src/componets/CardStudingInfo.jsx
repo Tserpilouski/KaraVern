@@ -6,7 +6,10 @@ import iconstep_4 from '../assets/steps/iconstep_4.svg';
 
 import line from '../assets/central-line.svg';
 
+import {studingCours} from '../data/data.js'
+
 const CardStudingInfo = () => {
+  console.log(studingCours[0].text)
   return (
     <div className='cardinfo'>
       <h2>Po ukończeniu kursu będziesz</h2>
